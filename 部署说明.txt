@@ -1,0 +1,10 @@
+启动流程
+1.使用idea打开ElectronicMallApi - idea，配置数据库，并在src\main\resources\application.yml文件中修改数据库名和密码。启动springboot
+
+2.启动redis缓存数据库
+  在Redis-x64-5.0.14.1文件进入终端
+  输入 redis-server.exe redis.windows.conf
+
+3.使用vscode打开ElectronicMallVue在终端输入 npm run serve
+
+4.网站登录用户有两位，用户名分别为：user 、admin， 密码均为123456
